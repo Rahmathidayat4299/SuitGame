@@ -34,7 +34,7 @@ class controller(private val callback: Callback) : interfacecontroller{
             callback.pemenang("Selamat playerOne memang dan playerTwo kalah")
 
         }else{
-            ("maaf pilihan anda tidak tersedia")
+            callback.pemenang("maaf pilihan anda tidak tersedia")
         }
 
     }
