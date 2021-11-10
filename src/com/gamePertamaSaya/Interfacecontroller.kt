@@ -1,5 +1,5 @@
 package com.gamePertamaSaya
 
-interface interfacecontroller {
+interface Interfacecontroller {
     fun check(playerOne: String, playerTwo: String)
 }
