@@ -13,6 +13,7 @@ object StartGame : Callback  {
         for (cetak in pilihan){
             println(cetak)
         }
+        //penambahan trim()
 
         print("masukkan pilihan pemainsatu: ")
 
