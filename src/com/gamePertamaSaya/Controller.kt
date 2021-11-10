@@ -1,6 +1,6 @@
 package com.gamePertamaSaya
 
-class Controller(private val callback: Callback) : interfacecontroller{
+class Controller(private val callback: Callback) : Interfacecontroller{
 
 
 
