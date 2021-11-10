@@ -1,6 +1,6 @@
 package com.gamePertamaSaya
 
-object startGame : Callback  {
+object StartGame : Callback  {
     @JvmStatic
     fun main(arg: Array<String>){
 
@@ -21,8 +21,8 @@ object startGame : Callback  {
         print("masukkan pilihan pemainDua: ")
         val choiceplayerTwo = readLine().toString()
 
-        val Controller = controller(this)
-        Controller.check( choiceplayerOne,
+        val controller = Controller(this)
+        controller.check( choiceplayerOne,
             choiceplayerTwo)
             }
 
