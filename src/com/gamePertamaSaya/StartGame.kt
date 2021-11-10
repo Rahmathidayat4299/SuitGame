@@ -16,10 +16,10 @@ object StartGame : Callback  {
 
         print("masukkan pilihan pemainsatu: ")
 
-        val choiceplayerOne = readLine().toString()
+        val choiceplayerOne = readLine().toString().trim()
 
         print("masukkan pilihan pemainDua: ")
-        val choiceplayerTwo = readLine().toString()
+        val choiceplayerTwo = readLine().toString().trim()
 
         val controller = Controller(this)
         controller.check( choiceplayerOne,
